@@ -1,2 +1,5 @@
-# thesis_template
-Thesis template
+# 卒論・修論・博論テンプレート
+
+著作権は放棄します。
+
+上田
