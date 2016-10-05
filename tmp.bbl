@@ -1,0 +1,21 @@
+\newcommand{\noop}[1]{}
+\begin{thebibliography}{{\noop{うえだ}}上田 15}
+
+\bibitem[Ueda 15]{ueda2015}
+Ryuichi Ueda.
+\newblock {Generation of Compensation Behavior of Autonomous Robot for
+  Uncertainty of Information with Probabilistic Flow Control}.
+\newblock {\em Advanced Robotics}, Vol.~29, No.~11, pp. 721--734, 2015.
+
+\bibitem[{\noop{うえだ}}上田 15]{上田2015jsai}
+{\noop{うえだ}}上田隆一, 水田恒太郎, 山川宏, 岡田浩之.
+\newblock
+  {海馬-嗅内皮質の情報処理と移動ロボットのナビゲーション問題との関連性調査とモデル化}.
+\newblock  人工知能学会全国大会, pp. 2I4--OS--17a--3, 2015.
+
+\bibitem[上田 15]{上田2015gihyo}
+上田隆一.
+\newblock シェルプログラミング実用テクニック.
+\newblock 技術評論社, 2015.
+
+\end{thebibliography}

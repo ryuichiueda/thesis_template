@@ -1,0 +1,48 @@
+\documentclass[a4paper,11pt]{jsbook}
+
+\newcommand{\V}[1]{\boldsymbol{#1}}
+\def\thline{\noalign{\hrule height 1pt}}
+\def\tvline{\vrule width 1pt}
+
+\usepackage{makeidx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\makeindex
+
+\begin{document}
+% 表紙
+\title{平成27年度 卒業論文\\
+ドリルキングアンセムの研究}
+
+\author{鳥"留噛男 \\
+China Institute of Technology}
+
+\date{2017年2月x日}
+
+\maketitle
+
+この論文は, 読んだあと自動的に消滅する. 
+
+\tableofcontents
+
+
+%%% 本文 %%%
+% 章のページの先頭は左側（奇数ページ）に来る
+
+\include{introduction}
+\include{purpose}
+\include{method}
+
+%%% 参考文献 %%%
+% よほどのことが無い限りet al.は使わないことにしましょう
+\bibliographystyle{jualpha}
+\bibliography{./references}
+
+\newpage
+\printindex
+
+\end{document}
+
+
