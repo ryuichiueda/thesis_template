@@ -11,6 +11,8 @@
 
 \makeindex
 
+\pagenumbering{roman}
+
 \begin{document}
 % 表紙
 \title{平成27年度 卒業論文\\
@@ -27,13 +29,20 @@ China Institute of Technology}
 
 \tableofcontents
 
+\include{preface}
+\cleardoublepage
 
 %%% 本文 %%%
 % 章のページの先頭は左側（奇数ページ）に来る
 
+\pagenumbering{arabic}
+
 \include{introduction}
 \include{purpose}
 \include{method}
+
+\appendix
+\include{appendix}
 
 %%% 参考文献 %%%
 % よほどのことが無い限りet al.は使わないことにしましょう
