@@ -25,21 +25,39 @@ China Institute of Technology}
 
 \maketitle
 
+%%% 但し書き等 %%%
 この論文は、読んだあと自動的に消滅する。
+\clearpage
+
+%%% 献辞 %%%
+% D論、あるいは誰かを亡くしたときの卒論、修論等で
+% 配偶者や配偶者の予定となる人の名前は覚悟をもって書くこと
+\pagestyle{plain}
+\vfil
+\ \\
+\vspace{15em}
+\begin{center}
+	{\Large 最愛の京成線に捧ぐ }
+\end{center}
+% 献辞をかかない場合はここまでコメントアウト
+
+
+\include{preface}
 
 \tableofcontents
 
-\include{preface}
-\cleardoublepage
+%\cleardoublepage
 
 %%% 本文 %%%
 % 章のページの先頭は左側（奇数ページ）に来る
 
+\cleardoublepage
 \pagenumbering{arabic}
 
 \include{introduction}
 \include{purpose}
 \include{method}
+\include{conclusion}
 
 \appendix
 \include{appendix}
