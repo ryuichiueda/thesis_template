@@ -3,7 +3,6 @@
 *.dvi
 *.bbl
 *.blg
-*.pdf
 *.ilg
 *.idx
 *.toc
